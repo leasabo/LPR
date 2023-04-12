@@ -15,4 +15,4 @@ for i in range(25):
         print(f"{i:03} OK")
     else:
         print(f"{i:03} ERROR | Original: {plates[i]}",
-                 f"Recognized: {txt}")
+                 f"Reconocido: {txt}")

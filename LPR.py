@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import pytesseract
 import skimage
-pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract.exe'
+#pytesseract.pytesseract.tesseract_cmd = 'C:/Program Files (x86)/Tesseract-OCR/tesseract.exe'
 
 class LPR:
     def __init__(self, min_w=80, max_w=110, min_h=25, max_h=52, ratio=3.07692307692):
